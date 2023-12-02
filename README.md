@@ -1,1 +1,2 @@
-# babyberta_continual
+# BabyBERTa_Continual
+code and model will be released soon
