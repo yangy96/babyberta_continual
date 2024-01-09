@@ -31,4 +31,4 @@
 ## Model for BabyLM Challenge
 
 - Please find the model for BabyLM-challenge (strict-small task): https://huggingface.co/yangy96/BabyLM_strict_small_Penn-BGU-BabyBERTa
-- More details could be found in https://cogcomp.seas.upenn.edu/papers/YSLR23b.pdf
+- More details could be found in the [abstract](https://cogcomp.seas.upenn.edu/papers/YSLR23b.pdf)
