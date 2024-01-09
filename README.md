@@ -21,7 +21,7 @@
 
 ### QAMR and QASRL
 
-- The processed data of qamr and qasrl are located in the folder *qamr* and *qasrl*, please download the [qamr data] (https://drive.google.com/file/d/1VHGWuxqMn0sFmpUQUB_UhYbAcZjHDRb-/view?usp=sharing), [qasrl data] (https://drive.google.com/file/d/1cXRcum-t50_ARIVZz1Gu1CwOJbKLdRE6/view?usp=sharing) and unzip the file
+- The processed data of qamr and qasrl are located in the folder *qamr* and *qasrl*, please download the [qamr data](https://drive.google.com/file/d/1VHGWuxqMn0sFmpUQUB_UhYbAcZjHDRb-/view?usp=sharing), [qasrl data](https://drive.google.com/file/d/1cXRcum-t50_ARIVZz1Gu1CwOJbKLdRE6/view?usp=sharing) and unzip the file
 - To run training the model on QAMR or QASRL, `` python3 train_question_answering.py --path {model_path} --train_model True --evaluate_model True --choice {task_choice} --num_of_epochs {number of epochs}``
 - To run evaluation only `` python3 train_question_answering.py --evaluate_path {evaluation_model_path} --evaluate_model True --choice {task_choice}``
 - After finished fine-tuning, the model will be saved in the save director with a prefix task_choice, e.g. *qasrl_{model_name}*
