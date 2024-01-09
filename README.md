@@ -1,13 +1,13 @@
 # BabyBERTa Continual Training
 
 ## Pre-train the model
+The code is based on the huggingface implemention in [BabyBERTa](https://github.com/phueb/BabyBERTa) 
 1. `` cd  pre-train``
 2. Need to copy the *data_collator.py* to *transformers/data* (installed transformers package) to enable choice of unmasked removal policy
 3. The processed data is located in the *data*, please download the data from 
 4. To continually pre-train the model on more wikipeida data, run 
 - `` python3 continue_train.py --text_path {text_path} --save_path {save_model_path} --read_path {starting_point_path} --unmasked_removal True``
 - Note that the text file should be located in the *data* 
-
 
 ## Fine-tune BabyBERTa on downstream tasks
 
